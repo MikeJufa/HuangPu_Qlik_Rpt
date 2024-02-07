@@ -297,7 +297,7 @@ Load *
             ,Left(Birthplace,2))))) as BirthProv
     , Dual('第四期 1926.01 - 1926.10',4) as SemesterNum
     , Null() as TeamNum
-    , '步兵' as CategoryName
+    , '步兵科' as CategoryName
     , 1 as CountNum;
 LOAD
     FullName,
@@ -324,7 +324,7 @@ Load *
             ,Left(Birthplace,2))))) as BirthProv
     , Dual('第四期 1926.01 - 1926.10',4) as SemesterNum
     , Null() as TeamNum
-    , '炮兵' as CategoryName
+    , '炮兵科' as CategoryName
     , 1 as CountNum;
 LOAD
     FullName,
@@ -351,7 +351,7 @@ Load *
             ,Left(Birthplace,2))))) as BirthProv
     , Dual('第四期 1926.01 - 1926.10',4) as SemesterNum
     , Null() as TeamNum
-    , '工兵' as CategoryName
+    , '工兵科' as CategoryName
     , 1 as CountNum;
 LOAD
     FullName,
